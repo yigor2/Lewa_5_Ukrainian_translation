@@ -2311,6 +2311,6 @@
     <string name="service_started_by_app">Запущено додатком.</string>
     <string name="service_client_name">%1$s</string>
     <string name="service_background_processes">%1$s вільно</string>
-    <string name="service_foreground_processes">%1$s увімкнена</string>
+    <string name="service_foreground_processes">%1$s увімкнено</string>
     <string name="service_process_name">%1$s</string>
 </resources>
