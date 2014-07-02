@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Синхр. використ. даних</string>
+    <string name="app_summary">Частина Data Meterũ LeWaTek Limited.</string>
+    <string name="app_title">Запит використання мобільної передачі даних</string>
+    <string name="request_failed">Запит використання мобільної передачі даних не вдався</string>
+    <string name="request_sms">Запит SMS з настройками</string>
+    <string name="send_sms">Відправлення запиту по використанню мобільної передачі даних по SMS</string>
+    <string name="analyze_sms">Аналіз використання мобільної передачі даних</string>
+    <string name="alert_slot_error">Неправильний слот</string>
+    <string name="alert_network_error">Помилка мережі</string>
+    <string name="phone_closed">Відсутня мережа. Включіть і спробуйте знову</string>
+    <string name="label_province">Провінція</string>
+    <string name="label_city">Місто</string>
+    <string name="label_carrier">Оператор</string>
+    <string name="label_brand">Бренд</string>
+    <string name="label_info">Будь ласка, підтвердіть інформацію Вашого оператора</string>
+    <string name="label_data_left">Залишилося</string>
+    <string name="label_data_used">Використано</string>
+    <string name="label_partner">Технічна підтримка: Tencent Mobile Manager</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="desktop_transition_effect_entries">
+        <item>Стандарт</item>
+        <item>Відскок</item>
+        <item>Наближення</item>
+        <item>Віддалення</item>
+        <item>Обертання вгору</item>
+        <item>Обертання вниз</item>
+        <item>Обертання</item>
+        <item>Переворот</item>
+        <item>Куб всередині</item>
+        <item>Куб зовні</item>
+        <item>Стек</item>
+        <item>Акордеон</item>
+        <item>Циліндр назовні</item>
+        <item>Циліндр всередину</item>
+        <item>Карусель</item>
+    </string-array>
+    <string-array name="desktop_transition_effect_values">
+        <item>Standard</item>
+        <item>OverShoot</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Spin</item>
+        <item>Flip</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>Stack</item>
+        <item>Accordion</item>
+        <item>CylinderIn</item>
+        <item>CylinderOut</item>
+        <item>CarouselLeft</item>
+    </string-array>
+    <string-array name="large_screen_layout">
+        <item>4 * 4</item>
+        <item>4 * 5</item>
+    </string-array>
+    <string-array name="large_screen_layout_value">
+        <item>4|4</item>
+        <item>4|5</item>
+    </string-array>
+    <string-array name="ex_large_screen_layout">
+        <item>4 * 4</item>
+        <item>4 * 5</item>
+        <item>5 * 5</item>
+    </string-array>
+    <string-array name="ex_large_screen_layout_value">
+        <item>4|4</item>
+        <item>4|5</item>
+        <item>5|5</item>
+    </string-array>
+    <string-array name="icon_size">
+        <item>@string/small_icon_size</item>
+        <item>@string/normal_icon_size</item>
+    </string-array>
+    <string-array name="icon_size_value">
+        <item>0.85f</item>
+        <item>1.0f</item>
+    </string-array>
+    <string-array name="smart_sort_dialog_items">
+        <item>@string/confirm_smart_sort</item>
+        <item>@string/restore_smart_sort</item>
+    </string-array>
+    <string-array name="app_category">
+        <item>Практические советы</item>
+        <item>Чат</item>
+        <item>Соцсети</item>
+        <item>Система и безопасность</item>
+        <item>影音阅读</item>
+        <item>主题壁纸</item>
+        <item>输入浏览</item>
+        <item>学习办公</item>
+        <item>我的游戏</item>
+        <item>其他应用</item>
+    </string-array>
+    <string-array name="game_second_category">
+        <item>策略游戏</item>
+        <item>动作格斗</item>
+        <item>飞行射击</item>
+        <item>角色冒险</item>
+        <item>模拟经营</item>
+        <item>其他游戏</item>
+        <item>手机网游</item>
+        <item>体育竞速</item>
+        <item>益智休闲</item>
+        <item>桌游棋牌</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_000b">false</item>
+    <item type="array" name="APKTOOL_DUMMY_000c">false</item>
+    <array name="wallpapers" />
+</resources>
