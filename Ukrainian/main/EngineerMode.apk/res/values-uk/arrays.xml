@@ -10,7 +10,7 @@
         <item>MT6628</item>
     </string-array>
     <string-array name="bt_chip_eco">
-        <item>НЕИЗВЕСТНО</item>
+        <item>НЕВІДОМО</item>
         <item>E1</item>
         <item>E2</item>
         <item>E3</item>
@@ -59,11 +59,11 @@
         <item>0000</item>
         <item>1111</item>
         <item>1010</item>
-        <item>Случайный бит</item>
+        <item>Випадковий біт</item>
         <item>11110000</item>
     </string-array>
     <string-array name="tx_channels">
-        <item>Одиночная частота</item>
+        <item>Одиночна частота</item>
         <item>79 канал</item>
     </string-array>
     <string-array name="tx_Pocket_type">
@@ -97,7 +97,7 @@
         <item>non-modulated</item>
     </string-array>
     <string-array name="working_mode_audio_channels">
-        <item>Без изменений</item>
+        <item>Без змін</item>
         <item>AL2 WithSeqNum</item>
         <item>AL2 WithoutSeqNum</item>
         <item>AL3 ControlFieldSize0</item>
@@ -113,7 +113,7 @@
         <item>5</item>
     </string-array>
     <string-array name="working_mode_video_channels">
-        <item>Без изменений</item>
+        <item>Без змін</item>
         <item>AL2 WithSeqNum</item>
         <item>AL2 WithoutSeqNum</item>
         <item>AL3 ControlFieldSize0</item>
@@ -129,9 +129,9 @@
         <item>5</item>
     </string-array>
     <string-array name="working_mode_video_channels_reverse">
-        <item>Без изменений</item>
-        <item>Обратные данные</item>
-        <item>Обратный NULL</item>
+        <item>Без змін</item>
+        <item>Зворотні дані</item>
+        <item>Зворотній NULL</item>
     </string-array>
     <string-array name="working_mode_video_channels_reverse_values">
         <item>0</item>
@@ -139,7 +139,7 @@
         <item>2</item>
     </string-array>
     <string-array name="working_mode_multiplex_level">
-        <item>Без изменений</item>
+        <item>Без змін</item>
         <item>MuxLevel 0</item>
         <item>MuxLevel 1</item>
         <item>MuxLevel 1 With Double Flag</item>
@@ -159,7 +159,7 @@
         <item>7</item>
     </string-array>
     <string-array name="working_mode_video_codec_preference">
-        <item>Без изменений</item>
+        <item>Без змін</item>
         <item>MPEG4_H263</item>
         <item>H263_MPEG4</item>
     </string-array>
@@ -169,9 +169,9 @@
         <item>2</item>
     </string-array>
     <string-array name="working_mode_use_wnsrp">
-        <item>Без изменений</item>
-        <item>ВЫКЛ</item>
-        <item>ВКЛ</item>
+        <item>Без змін</item>
+        <item>Вимк.</item>
+        <item>Увімк.</item>
     </string-array>
     <string-array name="working_mode_use_wnsrp_values">
         <item>0</item>
@@ -179,10 +179,10 @@
         <item>2</item>
     </string-array>
     <string-array name="working_mode_terminal_type">
-        <item>Без изменений</item>
-        <item>Нормальный</item>
-        <item>Мастер</item>
-        <item>Рабочий</item>
+        <item>Без змін</item>
+        <item>Нормальний</item>
+        <item>Майстер</item>
+        <item>Робочий</item>
     </string-array>
     <string-array name="working_mode_terminal_type_values">
         <item>0</item>
@@ -203,7 +203,7 @@
         <item>0000</item>
         <item>1111</item>
         <item>1010</item>
-        <item>Случайный бит</item>
+        <item>Випадковий біт</item>
         <item>11110000</item>
     </string-array>
     <string-array name="nsrx_Pocket_type">
@@ -221,26 +221,26 @@
         <item>3-DH5(0x2F)</item>
     </string-array>
     <string-array name="modem_test_cta_options">
-        <item>Проверка целостности</item>
+        <item>Перевірка цілісності</item>
         <item>RLC TL1</item>
         <item>K1297</item>
         <item>SN Conflict</item>
         <item>CF query</item>
         <item>DLMN lock</item>
-        <item>Измерения открыты</item>
-        <item>Отключить DPA</item>
+        <item>Вимірювання відкриті</item>
+        <item>Вимкнути DPA</item>
         <item>Intra CMR</item>
     </string-array>
     <string-array name="modem_test_operator_options">
         <item>MS_USIM_COMPATIPLE</item>
     </string-array>
     <string-array name="modem_test_iot_options">
-        <item>Быстрый покой</item>
+        <item>Швидкий спокій</item>
     </string-array>
     <string-array name="gsm_umts_network_preferences_choices">
         <item>GSM/TD (авторежим)</item>
-        <item>Только TD</item>
-        <item>Только GSM</item>
+        <item>Тільки TD</item>
+        <item>Тільки GSM</item>
     </string-array>
     <string-array name="gsm_umts_network_preferences_values">
         <item>0</item>
@@ -248,8 +248,8 @@
         <item>1</item>
     </string-array>
     <string-array name="device_mgr_entries">
-        <item>Отключить</item>
-        <item>Включить</item>
+        <item>Вимкнути</item>
+        <item>Увімкнути</item>
     </string-array>
     <string-array name="device_mgr_values">
         <item>0</item>
@@ -269,7 +269,7 @@
         <item>6_luma_nonlinearity</item>
     </string-array>
     <string-array name="audio_functions">
-        <item>Нормальный режим</item>
+        <item>Normal Mode</item>
         <item>Headset Mode</item>
         <item>LoudSpeaker Mode</item>
         <item>Headset_LoudSpeaker Mode</item>
