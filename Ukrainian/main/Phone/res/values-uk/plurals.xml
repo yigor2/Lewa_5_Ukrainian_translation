@@ -2,7 +2,7 @@
 <resources>
     <plurals name="phone_in_ecm_notification_time">
         <item quantity="other">Підключення для передачі даних відсутнє %s хв.</item>
-        <item quantity="one">Подключение для передачи данных отсутствует %s хв.</item>
+        <item quantity="one">Підключення для передачі даних відсутнє %s хв.</item>
     </plurals>
     <plurals name="alert_dialog_exit_ecm">
         <item quantity="other">Пристрій перейде в режим екстрених зворотних викликів на %s хв. У цьому режимі неможливо використовувати додатки, що задіюють передачу даних. Вийти з режиму?</item>

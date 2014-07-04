@@ -151,7 +151,7 @@
     <string name="vt_media_video_fail">Погана якість відеозв’язку. Відеодзвінок перерваний</string>
     <string name="incall_toast_hold">Утримання</string>
     <string name="incall_toast_unhold">Відновити</string>
-    <string name="onscreenCdmaManageCallext">Управління викликом</string>
+    <string name="onscreenCdmaManageCallext">Керування викликом</string>
     <string name="onscreenCdmaMergeCallext">Об’єднання виклику</string>
     <string name="end_call_because_can_not_hold">Закінчити поточний виклик, так як він не може бути утримано</string>
     <string name="ring_only_once_title">Дзвонити тільки раз</string>
@@ -190,7 +190,7 @@
     <string name="setting_for_3G_service">Служба 3G</string>
     <string name="network_forbidden">Вимкнути</string>
     <string name="call_reject_title">Відхилення виклику</string>
-    <string name="call_reject_sum">Управління режимом автоматичного відхилення і списком</string>
+    <string name="call_reject_sum">Керування режимом автоматичного відхилення і списком</string>
     <string name="voice_call_reject_mode_title">Режим автоматичного відхилення голосового дзвінка</string>
     <string name="voice_call_all_numbers">Режим автоматичного відхилення голосового дзвінка: Усі номери</string>
     <string name="video_call_all_numbers">Режим автоматичного відхилення відео виклику: Усі номери</string>
@@ -413,7 +413,7 @@
     <string name="ussdRunning">Виконується USSD-запит...</string>
     <string name="mmiCancelled">Запит було скасовано</string>
     <string name="cancel">Скасування</string>
-    <string name="manageConferenceLabel">Управління конференц-зв’язком</string>
+    <string name="manageConferenceLabel">Керування конференц-зв’язком</string>
     <string name="audio_mode_speaker">Динамік</string>
     <string name="audio_mode_earpiece">Динамік гарнітури</string>
     <string name="audio_mode_wired_headset">Дротова гарнітура</string>
@@ -634,13 +634,13 @@
     <string name="change_pin2">Змінити PIN2</string>
     <string name="enable_fdn_ok">Вимкнути Фіксований набір номера</string>
     <string name="disable_fdn_ok">Увімкнути Дозволені номери</string>
-    <string name="sum_fdn">Управління списком Дозволених номерів</string>
+    <string name="sum_fdn">Керування списком Дозволених номерів</string>
     <string name="sum_fdn_change_pin">Змінити PIN-код для доступу до списку Дозволених номерів</string>
-    <string name="sum_fdn_manage_list">Управління списком Дозволених номерів</string>
+    <string name="sum_fdn_manage_list">Керування списком Дозволених номерів</string>
     <string name="voice_privacy">Конфіденційність розмов</string>
     <string name="voice_privacy_summary">Увімкнути посилений режим конфіденційності</string>
-    <string name="tty_mode_option_title">Режим телетайпа</string>
-    <string name="tty_mode_option_summary">Встановити режим телетайпа</string>
+    <string name="tty_mode_option_title">Режим телетайпу</string>
+    <string name="tty_mode_option_summary">Встановити режим телетайпу</string>
     <string name="auto_retry_mode_title">Автододзвін</string>
     <string name="auto_retry_mode_summary">Увімкнути режим автодозвону</string>
     <string name="menu_add">Додати контакт</string>
@@ -650,7 +650,7 @@
     <string name="name">Ім’я</string>
     <string name="number">Номер</string>
     <string name="save">Зберегти</string>
-    <string name="add_fdn_contact">Додати номер у Фіксований набір номера</string>
+    <string name="add_fdn_contact">Додати номер до фіксованого набору номеру</string>
     <string name="adding_fdn_contact">Виконується додавання номера Дозволені номери...</string>
     <string name="fdn_contact_added">Номер доданий в Дозволені номери</string>
     <string name="edit_fdn_contact">Змінити номер в Дозволених номерів</string>
@@ -776,8 +776,8 @@
 "</string>
     <string name="onscreenSwapCallsText">"Переклад дзвінка 
 "</string>
-    <string name="onscreenManageCallsText">Управління викликами</string>
-    <string name="onscreenManageConferenceText">Управління конференцією</string>
+    <string name="onscreenManageCallsText">Керування викликами</string>
+    <string name="onscreenManageConferenceText">Керування конференцією</string>
     <string name="onscreenAudioText">"Динамік 
 "</string>
     <string name="importSimEntry">Імпортувати</string>
@@ -1114,8 +1114,8 @@
     <string name="gemini_3g_disable_warning_case2">Для даної SIM-карти спочатку необхідно Увімкнути передачу даних у роумінгу, що може спричинити значне підвищення вартості передавання даних! Крім того, функція 3G недоступна для цієї SIM-карти, що може знизити швидкість передачі даних. Ви дійсно хочете Увімкнути передачу даних у роумінгу і вибрати цю SIM-карту?</string>
     <string name="disable_data_connection_msg">При пошуку всіх доступних мереж буде відключена використовується інформаційна зв’язок. Продовжити?</string>
     <string name="voice_command_notification_ticker" formatted="false">Ви можете повідомити \"%s\" або \"%s\" відповісти або проігнорувати дзвінок</string>
-    <string name="voice_command_notification_title">Голосове управління</string>
-    <string name="voice_command_notification_message">Голосове управління увімкнено</string>
+    <string name="voice_command_notification_title">Голосове керування</string>
+    <string name="voice_command_notification_message">Голосове керування увімкнено</string>
     <string name="callFailed_simError_cdma">Немає UIM/SIM або помилка UIM/SIM</string>
     <string name="notification_dialing">Набір</string>
     <string name="default_notification_description">Мелодія за замовчуванням (%1$s)</string>
