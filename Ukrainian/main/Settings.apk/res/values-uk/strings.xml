@@ -911,7 +911,7 @@
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_connect">Підключити</string>
     <string name="wifi_failed_connect_message">Помилка з’єднання з мережею</string>
-    <string name="wifi_forget">Підключення</string>
+    <string name="wifi_forget">Забути</string>
     <string name="wifi_failed_forget_message">Помилка видалення мережі</string>
     <string name="wifi_save">Зберегти</string>
     <string name="wifi_failed_save_message">Помилка збереження мережі</string>
@@ -1361,6 +1361,7 @@
     <string name="unknown">Невідомо</string>
     <string name="sort_order_alpha">Сортувати за іменем</string>
     <string name="sort_order_size">Сортувати за розміром</string>
+    <string name="show_running_services">Показати активні служби</string>
     <string name="show_background_processes">Показати Фонові процеси</string>
     <string name="reset_app_preferences">Скинути налаштування</string>
     <string name="reset_app_preferences_title">Скинути налаштування?</string>
@@ -1427,8 +1428,15 @@
     <string name="app_disable_notifications_dlg_text">Якщо в налаштуваннях цього додатка Вимкнені повідомлення, ви можете пропустити важливі оповіщення та оновлення.</string>
     <string name="storageuse_settings_title">Використання сховища</string>
     <string name="storageuse_settings_summary">Перегляд використання сховища додатками</string>
+    <string name="service_restarting">Перезапуск</string>
     <string name="cached">Кешуючий фоновий процес</string>
+    <string name="no_running_services">Немає запущених служб.</string>
+    <string name="service_started_by_app">Запущено додатком.</string>
+    <string name="service_client_name">%1$s</string>
+    <string name="service_background_processes">%1$s вільно</string>
+    <string name="service_foreground_processes">%1$s увімкнено</string>
     <string name="memory">ОЗУ</string>
+    <string name="service_process_name">%1$s</string>
     <string name="running_processes_item_description_s_s">%1$d процесс та %2$d сервіс</string>
     <string name="running_processes_item_description_s_p">%1$d процесс та %2$d сервіси</string>
     <string name="running_processes_item_description_p_s">%1$d процесси та %2$d сервіс</string>
@@ -2295,6 +2303,8 @@
     <string name="APKTOOL_DUMMY_094c">false</string>
     <string name="APKTOOL_DUMMY_094d">false</string>
     <string name="APKTOOL_DUMMY_094e">false</string>
+    <string name="em_settings_title">Інженерне меню</string>
+    <string name="em_settings_adb_title">Статистика, перевірка, налаштування різних параметрів</string>
     <string name="gemini_3g_сервіс_settings">Служба 3G</string>
     <string name="radioInfo_сервіс_in">Працює</string>
     <string name="radioInfo_сервіс_out">Не працює</string>
@@ -2303,14 +2313,6 @@
     <string name="radio_info_gprs_сервіс_label">Послуга GPRS:</string>
     <string name="radio_info_gsm_сервіс_label">Послуга GSM:</string>
     <string name="status_сервіс_state">Статус мережі</string>
-    <string name="show_running_services">Показати активні служби</string>
     <string name="runningсервісs_settings_title">Запущені служби</string>
     <string name="runningсервісs_settings_summary">Перегляд і керування службами, запущеними в даний момент</string>
-    <string name="service_restarting">Перезапуск</string>
-    <string name="no_running_services">Немає запущених служб.</string>
-    <string name="service_started_by_app">Запущено додатком.</string>
-    <string name="service_client_name">%1$s</string>
-    <string name="service_background_processes">%1$s вільно</string>
-    <string name="service_foreground_processes">%1$s увімкнено</string>
-    <string name="service_process_name">%1$s</string>
 </resources>
