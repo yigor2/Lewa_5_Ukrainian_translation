@@ -3,7 +3,7 @@
 	<string name="app_name">Антикрадій</string>
 	<string name="anti_theft_hint">Антикрадій не активний</string>
 	<string name="anti_theft_hint_sub">Три кроки, і у Вас буде Антикрадій!</string>
-	<string name="app_summary">Антикрадій© LeWaTek Limited</string>
+	<string name="app_summary">Антикрадій © LeWaTek Limited</string>
 	<string name="label_next">Далі</string>
 	<string name="label_back">Назад</string>
 	<string name="label_complete">Закінчити</string>
@@ -27,7 +27,7 @@
 	<string name="remote_hint_find_phone">Функції віддаленого доступу:</string>
 	<string name="remote_hint2">Блокування і скріншот екрану, координати пристрою, очищення даних і зміна пароля.</string>
 	<string name="remote_hint_select_command">Вибір команди доступу</string>
-	<string name="remote_prompt_phone_number">Для видаленого доступу до пристрою:</string>
+	<string name="remote_prompt_phone_number">Для віддаленого доступу до пристрою:</string>
 	<string name="remote_lock_phone_title">Блокування пристрою і скріншот</string>
 	<string name="remote_lock_phone_hint">Цією командою заблокується екран загубленого пристрою, знадобиться пароль для розблокування</string>
 	<string name="remote_lock_phone_hint_sub">Увага: потрібна фронтальна камера.</string>
@@ -40,7 +40,7 @@
 	<string name="remote_retrieve_password_title">Ви вибрали зміна пароля</string>
 	<string name="remote_retrieve_password_hint">Ця команда змінить пароль</string>
 	<string name="remote_retrieve_password_hint_sub"/>
-	<string name="command_title">Команди віддаленого доступу до потеряному пристрою:</string>
+	<string name="command_title">Команди віддаленого доступу до загубленого пристрою:</string>
 	<string name="command_lock_phone">Блокування</string>
 	<string name="command_lock_phone_hint">Заблокувати пристрій і зробити знімок</string>
 	<string name="command_lock_phone_hint_sub">\#QQLock#Пароль</string>
@@ -68,9 +68,9 @@
 	<string name="dialog_security_number_title">Встановити безпечний номер</string>
 	<string name="dialog_security_number">Безпечний номер</string>
 	<string name="dialog_security_number_hint">Рекомендується використовувати номер близької людини як безпечний номер телефону, і він не може бути вашим номером</string>
-	<string name="dialog_security_number_change">&lt;u&gt;Змінити&lt;/u&gt;</string>
-	<string name="dialog_close_title">Закрити Протикрадій</string>
-	<string name="dialog_close_message">Система закриє Протикрадій</string>
+	<string name="dialog_security_number_change"><u>Змінити</u></string>
+	<string name="dialog_close_title">Закрити Антикрадій</string>
+	<string name="dialog_close_message">Система закриє Антикрадій</string>
 	<string name="dialog_password_forget_title">Забули пароль?</string>
 	<string name="dialog_password_forget_text1">Ваш телефон відправить повідомлення з паролем на безпечний номер</string>
 	<string name="dialog_password_forget_text2">Ваш пароль надіслано на безпечний номер</string>
@@ -81,7 +81,7 @@
 	<string name="dialog_remember_commands_text3">Відправка команд не вдалася</string>
 	<string name="dialog_command_sent_title">Статус</string>
 	<string name="dialog_command_sent_text">Успішно!</string>
-	<string name="password_forget">&lt;u&gt;Забули пароль?&lt;/u&gt;</string>
+	<string name="password_forget"><u>Забули пароль?</u></string>
 	<string name="password_old">Старий пароль</string>
 	<string name="password_new">Новий пароль</string>
 	<string name="password_confirm">Підтвердіть новий пароль</string>
@@ -90,12 +90,12 @@
 	<string name="password_show">Показати пароль</string>
 	<string name="password_format">Введіть від 4 до 16 символів або цифр</string>
 	<string name="password_step_title">1.встановіть пароль</string>
-	<string name="password_step_title_sub">Він використовується для входу в Протикрадій, віддаленого доступу і розблокування пристрою</string>
+	<string name="password_step_title_sub">Він використовується для входу в Антикрадії, для віддаленого доступу і розблокування пристрою</string>
 	<string name="password_digits">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
 	<string name="password_got">Пароль успішно відновлено, і це %s</string>
 	<string name="security_number_step_title">2.Безпечний номер телефону</string>
 	<string name="security_number_step_title_sub">Він використовується для нагадування пароля, і віддаленого доступу</string>
-	<string name="security_number_edit_hint">Формат номера 79ххххххххх (без ) для Росії і Казахстану, 375ххххххххх для Білорусі і 380ххххххххх для України. Рекомендується використовувати номер телефону близької людини.</string>
+	<string name="security_number_edit_hint">Формат номерів 79ххххххххх (без ) для Росії і Казахстану, 375ххххххххх для Білорусі і 380ххххххххх для України. Рекомендується використовувати номер телефону близької людини.</string>
 	<string name="user_info_step_title">3.Термінове повідомлення</string>
 	<string name="user_info_step_title_sub">Надсилає повідомлення на безпечний номер в разі зміни SIM-карти</string>
 	<string name="user_info_inner_hint1">Я</string>
