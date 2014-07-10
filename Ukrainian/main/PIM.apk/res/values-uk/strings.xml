@@ -757,7 +757,7 @@
 Завершено: %d 
 Не виконано: %d"</string>
     <string name="user_profile_cannot_sd_card">Не можна поділитися вмістом за допомогою цього методу.</string>
-    <string name="app_label">Повідомлення</string>
+    <string name="app_label">SMS/MMS</string>
     <string name="new_message">Нове повідомлення</string>
     <string name="menu_call_back">Виклик %s</string>
     <string name="menu_send_email">Написати ел. лист %s</string>
@@ -787,7 +787,7 @@
     <string name="download">Завантажити</string>
     <string name="downloading">Завантаження...</string>
     <string name="inline_subject">&lt;Тема: %s></string>
-    <string name="drm_protected_text">* Текст захищений засобами DRM *</string>
+    <string name="drm_protected_text">* Текст захищено засобами DRM *</string>
     <string name="insufficient_drm_rights">Виявлених прав DRM недостатньо.</string>
     <string name="copy_message_text">Скопіювати текст</string>
     <string name="message_options">Параметри повідомлення</string>
@@ -1008,7 +1008,7 @@
     <string name="edit_slide_activity">Змінити слайд</string>
     <string name="slideshow_activity">Слайд-шоу</string>
     <string name="class_0_message_activity">Повідомлення класу 0</string>
-    <string name="search_label">Повідомлення</string>
+    <string name="search_label">SMS/MMS</string>
     <string name="search_hint">Пошук повідомлень</string>
     <string name="search">SMS/MMS</string>
     <string name="search_setting_description">Текст повідомлення</string>
@@ -1102,7 +1102,7 @@
     <string name="mms_too_big_to_download">Повідомлення занадто велике для завантаження з мережі</string>
     <string name="menu_reply">Відповідь</string>
     <string name="menu_sim_sms">SMS на SIM</string>
-    <string name="name_colon">&lt;b>%s&lt;/b></string>
+    <string name="name_colon"><b>%s</b></string>
     <string name="compose_title">Нове повідомлення</string>
     <string name="image_too_large">Зображення занадто велике</string>
     <string name="ask_for_automatically_resize">Зменшити зображення перед відправкою?</string>
@@ -1277,7 +1277,7 @@
     <string name="error_add_attachment">Невідома помилка, неможливо додати %1$s повідомлення</string>
     <string name="no_application_response">Немає додатків для обробки запиту</string>
     <string name="label_loaderframent">Контакти</string>
-    <string name="label_mmsframent">Повідомлення</string>
+    <string name="label_mmsframent">SMS/MMS</string>
     <string name="label_calllogframent">Виклики</string>
     <string name="label_updatefragment">Подробиці оновлення</string>
     <string name="label_loaderframents">Контакт</string>
@@ -1291,7 +1291,7 @@
     <string name="showFilterPhones">Контакти з телефонами</string>
     <string name="menu_merge_duplicated">Об’єднані повторювані контакти</string>
     <string name="menu_del_contacts">Видалення контактів</string>
-    <string name="prefs_contact_management_title">Управління контактами</string>
+    <string name="prefs_contact_management_title">Керування контактами</string>
     <string name="contacts_account_settings_label">Налаштування облікового запису</string>
     <string name="contacts_show_option_label">Параметри відображення</string>
     <string name="title_contacts_settings">Налаштування</string>
@@ -1406,7 +1406,7 @@
     <string name="message_send_of_late">раніше</string>
     <string name="prefs_ims_settings">Налаштування обраних повідомлень</string>
     <string name="prefs_ims_close_title">Безкоштовний сервіс SMS</string>
-    <string name="prefs_ims_close_title_summary">Включіть для безкоштовних SMS, фото, голосових і відео повідомлень</string>
+    <string name="prefs_ims_close_title_summary">Увімкніть для безкоштовних SMS, фото, голосових і відео повідомлень</string>
     <string name="prefs_ims_aout_to_sms_mode">Пересилати по SMS</string>
     <string name="prefs_ims_aout_to_sms_summary_mode">Автоматично пересилати безкоштовні повідомлення по SMS якщо немає доступу до мережі.</string>
     <string name="message_ims_user_service_info">"Безкоштовна інформаційна служба угода 
@@ -1471,7 +1471,7 @@
     <string name="view_more_conversations">Подивитися більше розмов</string>
     <string name="mms_timer_text_formart" formatted="false">%sYear%sMonth%hday</string>
     <string name="menu_mms_timer_send">таймер відправки :</string>
-    <string name="notify_type_message">Повідомлення повідомлення</string>
+    <string name="notify_type_message">Сповіщення SMS/MMS</string>
     <string name="toast_donot_start_activity">Не активувати</string>
     <string name="ip_call_settings">Налаштування IP-виклику</string>
     <string name="ip_prefix_hint">Наприклад 17951,12593,17911</string>
@@ -1508,7 +1508,7 @@
     <string name="dialpad_empty_text">Список викликів порожній</string>
     <string name="message_empty_text">Повідомлення відсутні</string>
     <string name="contact_delteing">Контакти видаляються...</string>
-    <string name="gemini_sim_management_title">Управління SIM-картами</string>
+    <string name="gemini_sim_management_title">Керування SIM-картами</string>
     <string name="single_hand_dialpad_open">Включити набір однією рукою</string>
     <string name="single_hand_dialpad_close">Вимкнути набір однією рукою</string>
     <string name="base_info_title">Базова інформація</string>
