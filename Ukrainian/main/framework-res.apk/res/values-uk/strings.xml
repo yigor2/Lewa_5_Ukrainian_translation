@@ -1266,7 +1266,7 @@
     <string name="data_usage_mobile_limit_snoozed_title">Перевищено ліміт на моб. трафік</string>
     <string name="data_usage_wifi_limit_snoozed_title">Перевищено ліміт трафіку Wi-Fi</string>
     <string name="data_usage_limit_snoozed_body">Ліміт перевищено на %s.</string>
-    <string name="data_usage_restricted_title">Фоновий режим обмежений</string>
+    <string name="data_usage_restricted_title">Фоновий режим обмежено</string>
     <string name="data_usage_restricted_body">Зняти обмеження...</string>
     <string name="ssl_certificate">Сертифікат безпеки</string>
     <string name="ssl_certificate_is_valid">Цей сертифікат дійсний.</string>
@@ -1274,7 +1274,7 @@
     <string name="common_name">Стандартна назва:</string>
     <string name="org_name">Організація:</string>
     <string name="org_unit">Підрозділ організації:</string>
-    <string name="issued_by">Ким виданий:</string>
+    <string name="issued_by">Ким видано:</string>
     <string name="validity_period">Термін дії:</string>
     <string name="issued_on">Дата випуску:</string>
     <string name="expires_on">Термін дії:</string>
