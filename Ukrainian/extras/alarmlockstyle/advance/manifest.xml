@@ -2,7 +2,7 @@
 <Lockscreen version="1" frameRate="30" frameRateBatteryLow="20" screenWidth="720">
 	<VirtualScreen name="virtualscreen" freeze="true">
 		<Wallpaper blur="5" blurMaskGradient="#00000000|#ff000000" coverGradient="#00000000|#00000000|#bb000000"/>
-		<!--日期时间-->
+		<!--Дата время-->
 		<Group name="datetime" visibility="not(#music_control.visibility)">
 			<Var name="time_pos_y" expression="124"/>
 			<Var name="time_color" expression="#FFFFFFFF"/>
@@ -17,13 +17,13 @@
 			<Var name="time_width" expression="int(#hf_width+#hs_width+#dot_width+#mf_width+#ms_width)"/>
 			<Var name="time_pos_x" expression="(#screen_width-#time_width)/2"/>
 			<Var name="hour" expression="ifelse(eq(#time_format,0),#hour12,#hour24)" />
-			<Text name="h_s" x="#time_pos_x+#hf_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(eq(#ampm,1)*eq(#hour,0),12,#hour)" />
+			<Text name="h_s" x="#time_pos_x+#hf_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(eq(#ampm,1)*eq(#hour,0),12,#hour)" typeface="NeoSans-Light.otf"/>
 			<Image name="t_dot" x="#time_pos_x+#hf_width+#hs_width" y="#time_pos_y+160" align="left" alignV="bottom" src="time_dot.png"/>
-			<Text name="m_f" x="#time_pos_x+#hf_width+#hs_width+#dot_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(digit(#minute ,2),digit(#minute ,2),0)" />
-			<Text name="m_s" x="#time_pos_x+#hf_width+#hs_width+#dot_width+#mf_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(digit(#minute ,1),digit(#minute ,1),0)" />
-			<DateTime name="date" x="#screen_width/2" y="320" color="#FFFFFFFF" size="28" format="dd MMMM yyyy" align="center"/>
-			<DateTime name="date" x="#screen_width/2" y="350" color="#FFFFFFFF" size="28" format="EEEE" align="center"/>
-			<Text name="next_alarm" x="#screen_width/2" y="390" color="#FFFFFFFF" size="20" format="%s" textExp="@alarm+@next_alarm_time" visibility="#alarm_enabled" align="center"/>
+			<Text name="m_f" x="#time_pos_x+#hf_width+#hs_width+#dot_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(digit(#minute ,2),digit(#minute ,2),0)" typeface="NeoSans-Light.otf"/>
+			<Text name="m_s" x="#time_pos_x+#hf_width+#hs_width+#dot_width+#mf_width" y="#time_pos_y" align="left" color="#time_color" size="#time_size" shadow="15|5|8|#4d000000" textExp="ifelse(digit(#minute ,1),digit(#minute ,1),0)" typeface="NeoSans-Light.otf"/>
+			<DateTime name="mon" x="(#screen_width-(#mon_width+#lunar_calendar_width))/2-@mon_offsetX" y="320" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="left" format="dd.MMMM" typeface="Roboto-Light.ttf"/>
+			<DateTime name="lunar_calendar" x="(#screen_width-(#mon_width+#lunar_calendar_width))/2+#mon_width" y="320" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="left" format="@chinese_calendar_format" visibility="@chinese_calendar_show"/>
+			<DateTime name="week" x="#screen_width/2+@week_offsetX" y="320+@week_offsetY" color="#time_color" size="28" shadow="5|2|3|#4d000000" align="center" format="EEEE" typeface="@week_typeface"/>
 		</Group>
 		<Var name="guid_tips_alpha_show">
 			<VariableAnimation>
@@ -41,6 +41,7 @@
 		</Var>
 		<Text name="unlock_tips" x="#screen_width/2" align="center" y="#screen_height-1280+919-280" format="%s" paras="@slide_down_lock" color="#33ffffff" size="45" shadow="0|0|6|#bf000000"  />
 		<Text name="close_alarm" x="#screen_width/2" align="center" y="#screen_height-1280+919-125" format="%s" paras="@slide_close_alarm" color="#33ffffff" size="24" shadow="0|0|6|#bf000000"  />
+
 		<Group name="lock_part">
 			<Var name="unlocker_pos_centerY" expression="#screen_height-1280+919"/>
 			<Var name="lock_offsetY" expression="ifelse(lt(#unlocker_lock.move_y,-20),-20-((#unlocker_lock.move_y+20)*40/#unlocker_lock.move_y),#unlocker_lock.move_y)"/>
@@ -58,7 +59,7 @@
 				<Image name="line_3_norm_0" x="#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" srcExp="'line_3'+ifelse(gt(#battery_state,0)*ne(#battery_state,2),'_charge','')+'.png'"/>
 				<Image name="line_3_norm_1" x="-#line_3_norm_0.bmp_width+#line_ani_move_x" y="#unlocker_pos_centerY" alignV="center" srcExp="'line_3'+ifelse(gt(#battery_state,0)*ne(#battery_state,2),'_charge','')+'.png'"/>
 			</Group>
-			<!--充电光-->
+			<!--Индикатор зарядки-->
 			<Group name="charging_light" alpha="ifelse(#lock_state_normal,#guide_show,#guide_miss)" visibility="#battery_state*ne(#battery_state,2)">
 				<Var name="battery_w" expression="#battery_level*#screen_width/100" type="number"/>
 				<Var name="granduent_width" expression="ifelse(le(#battery_level,87),92,92*(100-#battery_level)/13)" type="number"/>
@@ -156,7 +157,7 @@
 				</Group>
 			</Group>
 		</Group>
-		<!--引导动画-->
+		<!--Анимация загрузки-->
 		<Group name="guide">
 			<Var name="guide_show">
 				<VariableAnimation>
@@ -198,6 +199,8 @@
 			</Image>
 		</Group>
 	</VirtualScreen>
+
+
 	<Var name="press_back" expression="1" const="true"/>
 	<Var name="lock_back" expression="#press_back" threshold="1">
 		<Trigger>

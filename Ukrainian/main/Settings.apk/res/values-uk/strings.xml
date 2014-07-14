@@ -1782,7 +1782,7 @@
     <string name="wifi_setup_refresh_list">Поновити список</string>
     <string name="wifi_setup_skip">Пропустити</string>
     <string name="wifi_setup_next">Далі</string>
-    <string name="wifi_setup_back">Тому</string>
+    <string name="wifi_setup_back">Назад</string>
     <string name="wifi_setup_detail">Відомості про мережі</string>
     <string name="wifi_setup_connect">Підключити</string>
     <string name="wifi_setup_forget">Підключення</string>

@@ -1,5 +1,12 @@
 <strings>
-    <string name="slide_down_answer" value="Вниз - відповісти" />
-    <string name="slide_down_hangup" value="Вниз - покласти слухавку" />
-    <string name="slide_down_reply" value="Вниз - відпровісти" />
+    <string name="short_date_format" value="dd/MM EEEE" />
+    <string name="long_date_format" value="dd/MM/yyyy" />
+    <string name="slide_down" value="Вниз щоб розблокувати" />
+    <string name="air_quality" value="AQI:" />
+    <string name="chinese_calendar_show" value="0"/>
+    <string name="week_offsetY" value="0"/>
+    <string name="week_offsetX" value="90"/>
+    <string name="week_typeface" value="NeoSans-Light.otf"/>
+    <string name="unreadSMS" value=" Непрочитаних SMS"/>
+    <string name="missCALL" value=" Пропущених викликів"/>
 </strings>

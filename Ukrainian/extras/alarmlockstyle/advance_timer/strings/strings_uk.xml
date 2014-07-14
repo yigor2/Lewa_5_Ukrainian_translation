@@ -1,15 +1,16 @@
 <strings>
-    <string name="short_date_format" value="MM/dd EEEE" />
-    <string name="long_date_format" value="yyyy/MM/dd" />
-    <string name="slide_close_alarm" value="Вимкнути будильник" />
-    <string name="slide_down_call" value="Вниз для дзвінків" />
-    <string name="slide_down_mess" value="Вниз для повідомлень" />
+    <string name="short_date_format" value="dd/MM EEEE" />
+    <string name="long_date_format" value="dd/MM/yyyy" />
+    <string name="slide_down_lock" value="ТАЙМЕР" />
+    <string name="slide_close_alarm" value="Вимкнути таймер" />
+    <string name="slide_down_call" value="Дзвінки" />
+    <string name="slide_down_mess" value="СМС" />
     <string name="air_quality" value="AQI:" />
     <string name="chinese_calendar_show" value="0"/>
-    <string name="mon_offsetX" value="60"/>
-    <string name="week_offsetY" value="0"/>
-    <string name="week_offsetX" value="60"/>
-    <string name="week_typeface" value="NeoSans-Light.otf"/>
-    <string name="unreadSMS" value="Непрочитаних SMS"/>
+    <string name="mon_offsetX" value="0"/>
+    <string name="week_offsetY" value="40"/>
+    <string name="week_offsetX" value="0"/>
+    <string name="week_typeface" value=""/>
+    <string name="unreadSMS" value="Пропущених СМС"/>
     <string name="missCALL" value="Пропущених дзвінків"/>
 </strings>
