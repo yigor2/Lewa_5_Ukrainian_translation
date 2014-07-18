@@ -295,7 +295,7 @@
     <string name="power_dialog">Параметри телефону</string>
     <string name="silent_mode">Режим без звуку</string>
     <string name="turn_on_radio">Увімкнути зв’язок</string>
-    <string name="turn_off_radio">Відключити зв’язок</string>
+    <string name="turn_off_radio">Вимкнути зв’язок</string>
     <string name="screen_lock">Блокування екрану</string>
     <string name="power_off">Вимикання</string>
     <string name="silent_mode_silent">Звук вимкнено</string>
@@ -310,7 +310,7 @@
     <string name="no_recent_tasks">Останнім часом Ви не запускали програми</string>
     <string name="global_actions">Параметри</string>
     <string name="global_action_lock">Блокування екрану</string>
-    <string name="global_action_power_off">Відключити живлення</string>
+    <string name="global_action_power_off">Вимкнути живлення</string>
     <string name="global_action_toggle_silent_mode">Режим без звуку</string>
     <string name="global_action_silent_mode_on_status">Вимкнути</string>
     <string name="global_action_silent_mode_off_status">Увімкнути</string>
@@ -1086,11 +1086,11 @@
     <string name="usb_storage_error_message">При підключенні SD-карти сталася помилка</string>
     <string name="usb_storage_notification_title">USB-підключення встановлено</string>
     <string name="usb_storage_notification_message">Натисніть, щоб скопіювати файли</string>
-    <string name="usb_storage_stop_notification_title">Відключити USB-накопичувач</string>
+    <string name="usb_storage_stop_notification_title">Вимкнути USB-накопичувач</string>
     <string name="usb_storage_stop_notification_message">Натисніть, щоб відключити USB-накопичувач</string>
     <string name="usb_storage_stop_title">USB-накопичувач використовується</string>
     <string name="usb_storage_stop_message">Перед вимкненням USB-накопичувача переконайтеся, що карта SD Android-пристрої вимкнена від комп’ютера.</string>
-    <string name="usb_storage_stop_button_mount">Відключити USB-накопичувач</string>
+    <string name="usb_storage_stop_button_mount">Вимкнути USB-накопичувач</string>
     <string name="usb_storage_stop_error_message">При вимкненні USB-накопичувача сталася помилка. Переконайтеся, що USB-хост вимкнено, і повторіть спробу</string>
     <string name="dlg_confirm_kill_storage_users_title">Включення USB-накопичувача</string>
     <string name="dlg_confirm_kill_storage_users_text">При підключенні USB-накопичувача деякі програми можуть припинити роботу і залишатися недоступними до його вимкнення</string>
@@ -1120,9 +1120,9 @@
     <string name="ext_media_checking_notification_message">Перевірка помилок...</string>
     <string name="ext_media_nofs_notification_title">Порожній носій інформації</string>
     <string name="ext_media_nofs_notification_message">На носії інформації немає даних, або його файлова система не підтримується</string>
-    <string name="ext_media_unmountable_notification_title">Пошкоджений носій інформації</string>
-    <string name="ext_media_unmountable_notification_message">Носій інформації пошкоджений. Спробуйте відформатувати його</string>
-    <string name="ext_media_badremoval_notification_title">Носій інформації несподівано витягнутий</string>
+    <string name="ext_media_unmountable_notification_title">Пошкоджено носій інформації</string>
+    <string name="ext_media_unmountable_notification_message">Носій інформації пошкоджено. Спробуйте відформатувати його</string>
+    <string name="ext_media_badremoval_notification_title">Носій інформації несподівано витягнуто</string>
     <string name="ext_media_badremoval_notification_message">Перед витяганням носія інформації вимкніть його, щоб уникнути втрати даних</string>
     <string name="ext_media_safe_unmount_notification_title">Безпечне вилучення носія інформації</string>
     <string name="ext_media_safe_unmount_notification_message">Можна безпечно витягти носій інформації</string>
@@ -1419,7 +1419,7 @@
     <string name="display_manager_overlay_display_title">%1$s: %2$d х %3$d, %4$d тчк/дюйм</string>
     <string name="wifi_display_notification_title">Бездротовий проектор підключений</string>
     <string name="wifi_display_notification_message">Зображення передається на інший пристрій</string>
-    <string name="wifi_display_notification_disconnect">Відключити</string>
+    <string name="wifi_display_notification_disconnect">Вимкнути</string>
     <string name="kg_emergency_call_label">Екстрений виклик</string>
     <string name="kg_forgot_pattern_button_text">Забули ключ?</string>
     <string name="kg_wrong_pattern">Невірний ключ</string>
