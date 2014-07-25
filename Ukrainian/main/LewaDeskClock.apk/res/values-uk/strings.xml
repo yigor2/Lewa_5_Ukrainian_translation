@@ -116,7 +116,7 @@
 	<string name="menu_multichoice_select_all">Вибрати все</string>
 	<string name="menu_multichoice_clear_select">Очистити вибрані</string>
 	<string name="time_zh_str">Шанхай</string>
-	<string name="early_time">Менше з %1$s г.</string>
+	<string name="early_time">Менше на %1$s г.</string>
 	<string name="later_time">Більше на %1$s г.</string>
 	<string name="lab">Коло</string>
 	<string name="left_text">Наступний будильник：</string>
@@ -136,7 +136,7 @@
 	<string name="turn_snooze">Відкласти сигнал переворотом</string>
 	<string name="repeat_everyday">Кожен день</string>
 	<string name="repeat_none">Не повторювати</string>
-	<string name="alarm_alert_snooze_until">Період встановлений у %s</string>
+	<string name="alarm_alert_snooze_until">Період встановлено: %s</string>
 	<string name="voice_ui_title">Керування голосом</string>
 	<string name="voice_ui_content_text">Керування голосом старту будильника</string>
 	<string name="alarm_command_summary_format">"Ви можете сказати %1$s або %2$s 

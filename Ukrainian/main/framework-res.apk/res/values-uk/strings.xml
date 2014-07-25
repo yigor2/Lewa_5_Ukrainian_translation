@@ -1174,7 +1174,7 @@
     <string name="car_mode_disable_notification_message">Щоб вийти, натисніть тут.</string>
     <string name="tethered_notification_title">USB-модем/точка доступу Wi-Fi використовується</string>
     <string name="tethered_notification_message">Натисніть для налаштування.</string>
-    <string name="back_button_label">Тому</string>
+    <string name="back_button_label">Назад</string>
     <string name="next_button_label">Далі</string>
     <string name="skip_button_label">Пропустити</string>
     <string name="throttle_warning_notification_title">Активна передача даних</string>
