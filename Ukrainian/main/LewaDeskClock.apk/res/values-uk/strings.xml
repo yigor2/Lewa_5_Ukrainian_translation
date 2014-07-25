@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="default_city">2151849</string>
+	<string name="default_city">9000007</string>
 	<string name="full_wday_month_day_no_year">EEEE, d MM</string>
 	<string name="app_label">Годинник</string>
 	<string name="alarm_list_title">Будильник</string>
@@ -9,7 +9,7 @@
 	<string name="menu_desk_clock">Настільний годинник</string>
 	<string name="menu_edit_alarm">Змінити налаштування</string>
 	<string name="delete_alarm">Видалити будильник</string>
-	<string name="enable_alarm">Вмикати будильник</string>
+	<string name="enable_alarm">Увімкн. будильник</string>
 	<string name="disable_alarm">Вимкнути будильник</string>
 	<string name="delete_alarm_confirm">Видалити будильник?</string>
 	<string name="show_clock">Показати годинники</string>
@@ -115,7 +115,7 @@
 	<string name="menu_actionbar_selected_items">%s вибрано</string>
 	<string name="menu_multichoice_select_all">Вибрати все</string>
 	<string name="menu_multichoice_clear_select">Очистити вибрані</string>
-	<string name="time_zh_str">Шанхай</string>
+	<string name="time_zh_str">Київ</string>
 	<string name="early_time">Менше на %1$s г.</string>
 	<string name="later_time">Більше на %1$s г.</string>
 	<string name="lab">Коло</string>
