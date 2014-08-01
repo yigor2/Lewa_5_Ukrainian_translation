@@ -379,7 +379,7 @@
 	<string name="pref_settings_photo_white_balance">Баланс білого</string>
 	<string name="pref_settings_photo_iso">ISO</string>
 	<string name="pref_settings_photo_antibanding">Стабілізація</string>
-	<string name="pref_settings_photo_face_detection">Визначення особи</string>
+	<string name="pref_settings_photo_face_detection">Визначення обличчя</string>
 	<string name="pref_settings_photo_continuous_capture">Серійна зйомка</string>
 	<string name="pref_settings_photo_restore">Відновлення</string>
 	<string name="pref_settings_flit_title">Фільтр</string>
